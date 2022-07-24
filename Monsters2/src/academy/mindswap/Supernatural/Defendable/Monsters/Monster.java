@@ -1,6 +1,9 @@
-package academy.mindswap;
+package academy.mindswap.Supernatural.Defendable.Monsters;
 
-public abstract class Monster extends Supernatural implements Defendable{
+import academy.mindswap.Supernatural.Defendable.Defendable;
+import academy.mindswap.Supernatural.Supernatural;
+
+public abstract class Monster extends Supernatural implements Defendable {
 
     private int health = 100;
 

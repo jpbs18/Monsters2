@@ -1,4 +1,4 @@
-package academy.mindswap;
+package academy.mindswap.Supernatural.Defendable;
 
 public interface Defendable {
 

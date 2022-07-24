@@ -1,6 +1,6 @@
-package academy.mindswap;
+package academy.mindswap.Supernatural.Defendable.Monsters;
 
-public class Vampire extends Monster{
+public class Vampire extends Monster {
 
     private final double CHANCE = 0.3;
 

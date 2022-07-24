@@ -1,6 +1,6 @@
-package academy.mindswap;
+package academy.mindswap.Supernatural.Defendable.Monsters;
 
-public class Mummy extends Monster{
+public class Mummy extends Monster {
 
     private int numberOfAttacks = 0;
 

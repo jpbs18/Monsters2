@@ -1,5 +1,10 @@
 package academy.mindswap;
 
+import academy.mindswap.Supernatural.Defendable.Defendable;
+import academy.mindswap.Supernatural.Defendable.Witch;
+import academy.mindswap.Supernatural.Fairies.Fairy;
+import academy.mindswap.Supernatural.Supernatural;
+
 public class Game {
 
     private Player player1;
@@ -71,14 +76,15 @@ public class Game {
         if(random < 2){
             return;
         }
-        System.out.printf("%s interrupted the game!%n", superNatural);
 
+        System.out.printf("%s interrupted the game!%n", superNatural);
         player1.playerDefend(obstacle.attack());
 
         if(gameEnded()){
             return;
         }
 
+        System.out.printf("%s interrupted the game!%n", superNatural);
         opponent.playerDefend(obstacle.attack());
 
         if(gameEnded()){

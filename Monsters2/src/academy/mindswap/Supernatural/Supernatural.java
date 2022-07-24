@@ -1,4 +1,4 @@
-package academy.mindswap;
+package academy.mindswap.Supernatural;
 
 public abstract class Supernatural {
 

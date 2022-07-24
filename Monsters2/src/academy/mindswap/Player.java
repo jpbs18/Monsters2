@@ -1,5 +1,7 @@
 package academy.mindswap;
 
+import academy.mindswap.Supernatural.Defendable.Monsters.*;
+
 public class Player {
 
     private Monster[] monsters;

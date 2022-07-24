@@ -1,6 +1,8 @@
-package academy.mindswap;
+package academy.mindswap.Supernatural.Defendable;
 
-public class Witch extends Supernatural implements Defendable{
+import academy.mindswap.Supernatural.Supernatural;
+
+public class Witch extends Supernatural implements Defendable {
 
     private int health = 100;
 
